@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    font-size: 4rem;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.number {
+    font-size: 6rem;
+}
+
+button {
+    margin-right: 1rem;
+    background: white;
+    border: 1px solid black;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover {
+    color: white;
+    background: black;
+}
